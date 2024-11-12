@@ -1,11 +1,14 @@
 [package]
 name = "philiprehberger-service-health"
-version = "0.1.4"
+version = "0.1.5"
 edition = "2021"
 authors = ["Philip Rehberger"]
 description = "Service health checker with liveness and readiness probes for Rust"
 license = "MIT"
 repository = "https://github.com/philiprehberger/rs-service-health"
+readme = "README.md"
+rust-version = "1.70"
+documentation = "https://docs.rs/philiprehberger-service-health"
 keywords = ["health", "healthcheck", "liveness", "readiness", "monitoring"]
 categories = ["web-programming", "network-programming"]
 

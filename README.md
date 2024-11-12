@@ -12,7 +12,7 @@ Add to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-philiprehberger-service-health = "0.1.4"
+philiprehberger-service-health = "0.1.5"
 ```
 
 ## Usage
@@ -48,6 +48,14 @@ let readiness = checker.check_readiness();
 | `CheckResult` | Result of a single check with name, status, and duration |
 | `HealthReport` | Aggregated report with overall status, check results, and timestamp |
 | `HealthChecker` | Registry for health checks with liveness/readiness probe support |
+
+
+## Development
+
+```bash
+cargo test
+cargo clippy -- -D warnings
+```
 
 ## License
 
