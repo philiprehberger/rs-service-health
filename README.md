@@ -4,11 +4,9 @@
 [![Crates.io](https://img.shields.io/crates/v/philiprehberger-service-health.svg)](https://crates.io/crates/philiprehberger-service-health)
 [![License](https://img.shields.io/github/license/philiprehberger/rs-service-health)](LICENSE)
 
-Service health checker with liveness and readiness probes for Rust. Register health check functions, run them on demand, and get JSON-serializable reports with timing information.
+Service health checker with liveness and readiness probes for Rust
 
 ## Installation
-
-Add to your `Cargo.toml`:
 
 ```toml
 [dependencies]
