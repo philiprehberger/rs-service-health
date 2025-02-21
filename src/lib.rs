@@ -1,3 +1,16 @@
+//! Service health checker with liveness and readiness probes.
+//!
+//! # Example
+//!
+//! ```rust
+//! use philiprehberger_service_health::HealthChecker;
+//!
+//! let mut checker = HealthChecker::new();
+//! checker.add_liveness("ping", || Ok(()));
+//! let report = checker.check_liveness();
+//! assert!(report.is_healthy());
+//! ```
+
 use serde::{Serialize, Serializer};
 use std::fmt;
 use std::time::{Duration, Instant, SystemTime};

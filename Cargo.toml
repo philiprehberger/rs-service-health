@@ -1,6 +1,6 @@
 [package]
 name = "philiprehberger-service-health"
-version = "0.1.5"
+version = "0.1.6"
 edition = "2021"
 authors = ["Philip Rehberger"]
 description = "Service health checker with liveness and readiness probes for Rust"

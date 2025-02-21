@@ -10,7 +10,7 @@ Service health checker with liveness and readiness probes for Rust
 
 ```toml
 [dependencies]
-philiprehberger-service-health = "0.1.5"
+philiprehberger-service-health = "0.1.6"
 ```
 
 ## Usage
