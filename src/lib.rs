@@ -6,7 +6,7 @@
 //! use philiprehberger_service_health::HealthChecker;
 //!
 //! let mut checker = HealthChecker::new();
-//! checker.add_liveness("ping", || Ok(()));
+//! checker.add_liveness_check("ping", || Ok(()));
 //! let report = checker.check_liveness();
 //! assert!(report.is_healthy());
 //! ```
