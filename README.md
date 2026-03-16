@@ -12,7 +12,7 @@ Add to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-philiprehberger-service-health = "0.1"
+philiprehberger-service-health = "0.1.4"
 ```
 
 ## Usage
