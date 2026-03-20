@@ -3,10 +3,10 @@
 //! # Example
 //!
 //! ```rust
-//! use philiprehberger_service_health::HealthChecker;
+//! use philiprehberger_service_health::{HealthChecker, Status};
 //!
 //! let mut checker = HealthChecker::new();
-//! checker.add_liveness_check("ping", || Ok(()));
+//! checker.add_liveness_check("ping", || Status::Healthy);
 //! let report = checker.check_liveness();
 //! assert!(report.is_healthy());
 //! ```
