@@ -3,6 +3,7 @@
 [![CI](https://github.com/philiprehberger/rs-service-health/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/rs-service-health/actions/workflows/ci.yml)
 [![Crates.io](https://img.shields.io/crates/v/philiprehberger-service-health.svg)](https://crates.io/crates/philiprehberger-service-health)
 [![License](https://img.shields.io/github/license/philiprehberger/rs-service-health)](LICENSE)
+[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
 
 Service health checker with liveness and readiness probes for Rust
 
